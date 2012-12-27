@@ -3,7 +3,7 @@
 # OF_ROOT allows to move projects outside apps/* just set this variable to the
 # absoulte path to the OF root folder
 
-OF_ROOT = ../../..
+OF_ROOT = ../../../../OF0072/openFrameworks/
 
 
 # USER_CFLAGS allows to pass custom flags to the compiler
@@ -22,7 +22,7 @@ USER_LDFLAGS =
 
 # use this to add system libraries for example:
 # USER_LIBS = -lpango
- 
+
 USER_LIBS = $(shell pkg-config libusb-1.0 --libs)
 
 
